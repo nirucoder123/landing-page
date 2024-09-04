@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=nav, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+
+<body>
+    <nav>
+        <div class="logo-name">
+            <div class="logo-img">
+                <img src="logo.jpg" alt="">
+                <div>
+                    <span class="logo_name">courses</span>
+                </div>
+            </div>
+        </div>
+        <div class="search" style="width: 452px;">
+
+            <input type="text" placeholder=" search..." class="search-input">
+            <img src="images/srch.png" alt="search icon " class="search-icon">
+
+        </div>
+        <div class="menu-items">
+            <ul class="nav-link">
+                <li><a href="#">
+                        <span class="nav_link">Home</span>
+                        <i class="uil uil-home"></i>
+                    </a></li>
+                <li><a href="#">
+                        <span class="nav_link">About Us</span>
+                        <i class="uil uil-smile-squint-wink-alt"></i>
+                    </a></li>
+                <li><a href="#">
+                        <span class="nav_link">Contact</span>
+                        <i class="uil uil-comment-alt-medical"></i>
+                    </a></li>
+                <li><a href="#">
+                        <span class="nav_link">Enroll</span>
+                        <i class="uil uil-presentation-play"></i>
+                    </a></li>
+                <div class="profile">
+                    <li><a href="#">
+                            <i class="uil uil-book-reader"></i>
+                        </a></li>
+                </div>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="slider">
+            <div class="slides">
+                <div class="slide"><img src="images/sl2.png" alt=""></div>
+                <div class="slide"><img src="images/Designer.png" alt=""></div>
+            </div>
+            <button class="prev" onclick="prevSlide()">&#10094;</button>
+            <button class="next" onclick="nextSlide()">&#10095;</button>
+        </div>
+        <div class="describe">
+            <h1>
+                All the skills you need in one place
+            </h1>
+            <p>From critical skills to technical topics, Udemy supports your professional development.</p>
+            <hr>
+        </div>
+
+        <div class="courses">
+            <button class="btn">
+                <span class="txt">Java script</span>
+                <p class="txt">3.2M+Learner</p>
+            </button>
+            <button class="btn">
+                <span class="txt">React</span>
+                <p class="txt">5.6M+Learner</p>
+            </button>
+            <button class="btn">
+                <span class="txt">Angular</span>
+                <p class="txt">1.2M+Learner</p>
+            </button>
+            <button class="btn">
+                <span class="txt">Android Development</span>
+                <p class="txt">6.7M+Learner</p>
+            </button>
+            <button class="btn">
+                <span class="txt">Ios Development</span>
+                <p class="txt">10.2M+Learner</p>
+            </button>
+            <button class="btn">
+                <span class="txt">Css</span>
+                <p class="txt">11.2M+Learner</p>
+            </button>
+        </div>
+        <div class="course-template">
+            <button class="course-type"> <img src="images/img1.jpg" alt="" class="course_type"><span
+                    class="about-course"> SEO
+                    course </span>
+                <p>150$ full course</p>
+            </button>
+            <button class="course-type"> <img src="images/img2.jpg" alt="" class="course_type"><span
+                    class="about-course">Machine learning course</span>
+                <p>80$full course</p>
+            </button>
+            <button class="course-type"> <img src="images/img3.jpg" alt="" class="course_type"><span
+                    class="about-course">Astronomy course</span>
+                <p>180$ full course</p>
+            </button>
+            <button class="course-type"> <img src="images/img4.jpg" alt="" class="course_type"><span
+                    class="about-course">
+                    React course</span>
+                <p>75$ full course</p>
+            </button>
+        </div>
+        <div class="more-courses">
+            <button class="show-more">Show More Web Development courses</button>
+        </div>
+        <div class="brand">
+            <span>Trusted by over 16,000 companies and millions of learners around the world</span>
+            <div class="brand-logos">
+                <img src="images/infosys.png" alt="">
+            
+                <img src="images/tata.png" alt="">
+                
+                <img src="images/nasdaq.png" alt="">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h2>About Us</h2>
+                <p>We provide top-notch educational courses that help learners enhance their skills in various fields.</p>
+            </div>
+            <div class="footer-section links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h2>Contact Us</h2>
+                <p>Email: info@example.com</p>
+                <p>Phone: +123 456 7890</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 courses.com. All rights reserved.</p>
+        </div>
+    </footer>
+    
+</body>
+<script src="script.js"></script>
+
+</html>
